@@ -7,7 +7,7 @@ Summary(pl):	Aqualung - odtwarzacz muzyki dla Linuksa
 Name:		aqualung
 Version:	0.9
 %define	bver	beta2
-Release:	0.%{bver}.1
+Release:	0.%{bver}.2
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/aqualung/%{name}-%{version}%{bver}.tar.gz
