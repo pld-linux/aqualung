@@ -17,7 +17,7 @@ URL:		http://aqualung.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	flac-devel
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	jack-audio-connection-kit-devel
 BuildRequires:	liblrdf-devel >= 0.3.7
 BuildRequires:	libmad-devel
