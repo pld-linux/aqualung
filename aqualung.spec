@@ -26,6 +26,7 @@ BuildRequires:	libsamplerate-devel
 BuildRequires:	libsndfile-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	libxml2-devel >= 2.0.0
+BuildRequires:	perl-base
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
