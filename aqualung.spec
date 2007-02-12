@@ -5,7 +5,7 @@
 %define	_beta	beta6
 %define	_rel	1
 Summary:	Aqualung - music player for Linux
-Summary(pl):	Aqualung - odtwarzacz muzyki dla Linuksa
+Summary(pl.UTF-8):   Aqualung - odtwarzacz muzyki dla Linuksa
 Name:		aqualung
 Version:	0.9
 Release:	0.%{_beta}.%{_rel}
@@ -36,10 +36,10 @@ Aqualung is a new music player for the GNU/Linux operating system. It
 plays audio files from your filesystem and has the feature of
 inserting no gaps between adjacent tracks.
 
-%description -l pl
+%description -l pl.UTF-8
 Aqualung to nowy odtwarzacz muzyki dla systemu operacyjnego GNU/Linux.
-Odtwarza pliki d¼wiêkowe z systemu plików i ma mo¿liwo¶æ nie
-wstawiania przerw miêdzy ¶cie¿kami.
+Odtwarza pliki dÅºwiÄ™kowe z systemu plikÃ³w i ma moÅ¼liwoÅ›Ä‡ nie
+wstawiania przerw miÄ™dzy Å›cieÅ¼kami.
 
 %prep
 %setup -q -n %{name}-%{version}%{_beta}
