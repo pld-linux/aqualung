@@ -5,7 +5,7 @@
 %define	_beta	beta6
 %define	_rel	1
 Summary:	Aqualung - music player for Linux
-Summary(pl.UTF-8):   Aqualung - odtwarzacz muzyki dla Linuksa
+Summary(pl.UTF-8):	Aqualung - odtwarzacz muzyki dla Linuksa
 Name:		aqualung
 Version:	0.9
 Release:	0.%{_beta}.%{_rel}
