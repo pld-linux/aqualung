@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_without	alsa	# without ALSA support
 #
-%define	_beta	beta6
+%define	_beta	beta10
 %define	_rel	1
 Summary:	Aqualung - music player for Linux
 Summary(pl.UTF-8):	Aqualung - odtwarzacz muzyki dla Linuksa
@@ -12,7 +12,7 @@ Release:	0.%{_beta}.%{_rel}
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/aqualung/%{name}-%{version}%{_beta}.tar.gz
-# Source0-md5:	4a019e923316615ad117548a87d4792e
+# Source0-md5:	29ce07b74527e6e44f0c4c778ac85f40
 URL:		http://aqualung.sourceforge.net/
 %{?with_alsa:BuildRequires:	alsa-lib-devel >= 0.9}
 BuildRequires:	autoconf >= 2.50
@@ -60,11 +60,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+%find_lang %{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
